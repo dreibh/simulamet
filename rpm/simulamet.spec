@@ -131,6 +131,7 @@ Requires: autoconf
 Requires: automake
 Requires: banner
 Requires: bison
+Requires: boost-devel
 Requires: bzip2-devel
 Requires: clang
 Requires: cmake
