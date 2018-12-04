@@ -1,0 +1,144 @@
+Source: simulamet
+Section: net
+Priority: optional
+Maintainer: Thomas Dreibholz <dreibh@simula.no>
+Homepage: http://www.simulamet.no
+Build-Depends: cmake (>= 3.0.2) | cmake3,
+               debhelper (>= 9),
+               fonts-dejavu,
+               fonts-noto-cjk,
+               fonts-noto-hinted,
+               ghostscript,
+               gimp,
+               graphicsmagick,
+               gsfonts,
+               libfile-fcntllock-perl,
+               libimage-exiftool-perl
+Standards-Version: 4.2.1
+Vcs-Git: https://github.com/dreibh/simulamet.git
+Vcs-Browser: https://github.com/dreibh/simulamet
+
+Package: simulamet-management
+Architecture: any
+Depends: apt-file,
+         apt-show-versions,
+         bash-completion,
+         bc,
+         bridge-utils,
+         btrfs-tools,
+         bwm-ng,
+         colordiff,
+         cron,
+         cron-apt,
+         eatmydata,
+         ethtool,
+         git,
+         gpm,
+         hping3,
+         htop,
+         idn,
+         ifupdown,
+         ipsec-tools,
+         joe,
+         libfile-fcntllock-perl,
+         lksctp-tools,
+         lsb-base (>= 3.2-14),
+         mlocate,
+         net-tools,
+         netperfmeter,
+         nmap,
+         ntpdate,
+         pxz,
+         reiserfsprogs,
+         reprepro,
+         rsplib-docs,
+         rsplib-services,
+         rsplib-tools,
+         smartmontools,
+         snmp,
+         software-properties-common,
+         subnetcalc,
+         tcpdump,
+         tftp,
+         traceroute,
+         tree,
+         virt-what,
+         vlan,
+         whois,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: apport-retrace,
+            grub2-common,
+            language-pack-de-base,
+            language-pack-en-base,
+            language-pack-nb-base,
+            linux-crashdump,
+            tshark,
+            update-motd
+Description: SimulaMet Management Tools
+ This metapackage contains basic software for SimulaMet system management.
+ The software installed provides a common working environment.
+ .
+ See http://www.simulamet.no for details on SimulaMet!
+
+Package: simulamet-development
+Architecture: any
+Depends: autoconf,
+         automake,
+         bc,
+         bison,
+         clang,
+         cmake (>= 3.0) | cmake3,
+         createrepo,
+         debhelper,
+         devscripts,
+         docker.io,
+         flex,
+         fonts-dejavu,
+         fonts-noto-cjk,
+         fonts-noto-hinted,
+         gdb,
+         ghostscript,
+         gnupg,
+         gnuplot,
+         graphicsmagick,
+         gsfonts,
+         kernel-package,
+         libbz2-dev,
+         libcurl4-openssl-dev,
+         libglib2.0-dev,
+         libimage-exiftool-perl,
+         libpcap-dev,
+         libsctp-dev,
+         libssl-dev,
+         libtool,
+         mock,
+         pbuilder,
+         pkg-config,
+         python3-all,
+         quilt,
+         r-base,
+         r-cran-ggplot2,
+         r-cran-hmisc,
+         rpm,
+         sysvbanner,
+         valgrind,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: ubuntu-dev-tools
+Description: SimulaMet Development Tools
+ This meta-package contains basic software for SimulaMet development.
+ The software installed provides a common working environment.
+ .
+ See http://www.simulamet.no for details on SimulaMet!
+
+Package: simulamet-desktop
+Architecture: any
+Depends: simulamet-management,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: neon-desktop | kubuntu-desktop | lubuntu-desktop | ubuntu-desktop
+Description: SimulaMet Desktop
+ This meta-package contains the scripts to configure a SimulaMet desktop.
+ .
+ See http://www.simulamet.no for details on SimulaMet!

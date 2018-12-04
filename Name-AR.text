@@ -1,0 +1,2 @@
+ar="توماس ترايبهولس"
+${MAKE_LOGO} ${OUTPUT}   "$ar"   256 10 "Golden"   "DejaVu Sans"
