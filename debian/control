@@ -136,7 +136,7 @@ Description: SimulaMet Development Tools
 
 Package: simulamet-desktop
 Architecture: any
-Depends: firefox,
+Depends: firefox | firefox-esr,
          kubuntu-desktop | neon-desktop | kde-standard | deepin-desktop-environment | lubuntu-desktop | ubuntu-desktop,
          sddm | kdm | lightdm | gdm3,
          simulamet-management (>= ${source:Version}),
