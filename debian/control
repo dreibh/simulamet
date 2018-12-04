@@ -92,7 +92,6 @@ Depends: autoconf,
          createrepo,
          debhelper,
          devscripts,
-         docker.io,
          flex,
          fonts-dejavu,
          fonts-noto-cjk,
@@ -127,7 +126,9 @@ Depends: autoconf,
          valgrind,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: ubuntu-dev-tools
+Recommends: docker.io,
+            ubuntu-dev-tools
+
 Description: SimulaMet Development Tools
  This meta-package contains basic software for SimulaMet development.
  The software installed provides a common working environment.
