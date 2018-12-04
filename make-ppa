@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+./clean-deb
+./make-deb trusty xenial bionic cosmic disco unstable
+changeFiles=`ls *.changes`
+for changeFile in $changeFiles ; do
+   if [[ $changeFile =~ .*[0-9](ppa|ubuntu)[0-9].* ]] ; then
+      dput ppa $changeFile
+   else
+      dput mentors $changeFile
+   fi
+done

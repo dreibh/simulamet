@@ -121,6 +121,7 @@ Depends: autoconf,
          r-cran-ggplot2,
          r-cran-hmisc,
          rpm,
+         simulamet-management (>= ${source:Version}),
          sysvbanner,
          valgrind,
          ${misc:Depends},
@@ -134,7 +135,7 @@ Description: SimulaMet Development Tools
 
 Package: simulamet-desktop
 Architecture: any
-Depends: simulamet-management,
+Depends: simulamet-management (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: neon-desktop | kubuntu-desktop | lubuntu-desktop | ubuntu-desktop
