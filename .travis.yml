@@ -158,6 +158,4 @@ install:
 script:
   - |
     travis_wait 60 ci/build
-    if [ "${VARIANT}" != "debian" ] ; then
-       travis_wait 60 ci/test
-    fi
+    travis_wait 60 ci/test
