@@ -1,2 +1,4 @@
+/etc/grub.d/??_simulamet_management_theme
+/usr/share/simulamet/Splash/Oslo-1024x768.jpeg /boot/SimulaMet
 /usr/share/simulamet/Splash/simulamet-version /etc/simulamet
 /usr/share/simulamet/grub-defaults

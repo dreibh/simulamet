@@ -34,7 +34,6 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-build
  This package contains the scripts to configure a SimulaMet desktop.
  See https://www.simulamet.no for details on SimulaMet!
 
-
 %prep
 %setup -q
 
@@ -44,14 +43,177 @@ make %{?_smp_mflags}
 
 %install
 make DESTDIR=%{buildroot} install
+# ====== Relocate files =====================================================
+mkdir -p %{buildroot}/boot/SimulaMet
+mv %{buildroot}/usr/share/simulamet/Splash/Gressholmen-1024x768.jpeg   %{buildroot}/boot/SimulaMet
+mv %{buildroot}/usr/share/simulamet/Splash/Lindøya-1024x768.jpeg       %{buildroot}/boot/SimulaMet
+mv %{buildroot}/usr/share/simulamet/Splash/Oslo-1024x768.jpeg          %{buildroot}/boot/SimulaMet
+mkdir -p %{buildroot}/etc/simulamet
+mv %{buildroot}/usr/share/simulamet/Splash/simulamet-version   %{buildroot}/etc/simulamet
+# ===========================================================================
 
-%files
-/usr/share/simulamet/*.pdf
+
+%package management
+Summary: SimulaMet Management
+Group: Applications/Internet
+Requires: bash-completion
+Requires: bridge-utils
+Requires: btrfs-progs
+Requires: bc
+Requires: bwm-ng
+Requires: colordiff
+Requires: cronie
+Requires: ethtool
+Requires: git
+Requires: gpm
+Requires: hping3
+Requires: htop
+Requires: ipsec-tools
+Requires: joe
+Requires: jq
+Requires: libidn
+Requires: lksctp-tools
+Requires: mlocate
+Requires: net-snmp-utils
+Requires: net-tools
+Requires: nmap
+Requires: ntpdate
+Requires: pxz
+Requires: reiserfs-utils
+Requires: reprepro
+Requires: smartmontools
+Requires: subnetcalc
+Requires: tcpdump
+Requires: tftp
+Requires: traceroute
+Requires: tree
+Requires: vconfig
+Requires: virt-what
+Requires: whois
+Recommends: grub2-tools
+Recommends: netperfmeter
+Recommends: rsplib-docs
+Recommends: rsplib-services
+Recommends: rsplib-tools
+Recommends: wireshark-cli
+
+%description management
+This metapackage contains basic software for SimulaMet system management.
+The software installed provides a common working environment.
+See http://www.simulamet.no for details on SimulaMet!
+
+%files management
+/boot/SimulaMet/Oslo-1024x768.jpeg
+/etc/grub.d/??_simulamet_management_theme
+/etc/simulamet/simulamet-version
+/usr/share/simulamet-nornet/grub-defaults
+
+%post management
+echo "Updating /etc/default/grub with NorNet settings:"
+echo "-----"
+cat /usr/share/simulamet/grub-defaults | \
+   ( if grep "biosdevname=0" >/dev/null 2>&1 /proc/cmdline ; then sed "s/^GRUB_CMDLINE_LINUX=\"/GRUB_CMDLINE_LINUX=\"biosdevname=0 /g" ; else cat ; fi ) | \
+   ( if grep "net.ifnames=0" >/dev/null 2>&1 /proc/cmdline ; then sed "s/^GRUB_CMDLINE_LINUX=\"/GRUB_CMDLINE_LINUX=\"net.ifnames=0 /g" ; else cat ; fi ) | tee /etc/default/grub.new && \
+mv /etc/default/grub.new /etc/default/grub
+echo "-----"
+if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
+
+%postun management
+rm -f /etc/grub.d/??_simulamet_desktop_theme
+if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
+
+
+%package development
+Summary: SimulaMet Development
+Group: Applications/Internet
+Requires: %{name}-management = %{version}-%{release}
+Requires: autoconf
+Requires: automake
+Requires: banner
+Requires: bison
+Requires: bzip2-devel
+Requires: clang
+Requires: cmake
+Requires: createrepo
+Requires: debhelper
+Requires: dejavu-sans-fonts
+Requires: dejavu-sans-mono-fonts
+Requires: dejavu-serif-fonts
+Requires: devscripts
+Requires: flex
+Requires: gcc
+Requires: gcc-c++
+Requires: gdb
+Requires: ghostscript
+Requires: gimp
+Requires: glib2-devel
+Requires: gnupg
+Requires: gnuplot
+Requires: google-noto-cjk-fonts
+Requires: google-noto-sans-fonts
+Requires: google-noto-serif-fonts
+Requires: GraphicsMagick
+Requires: libcurl-devel
+Requires: libpcap-devel
+Requires: libtool
+Requires: lksctp-tools-devel
+Requires: make
+Requires: mock
+Requires: openssl-devel
+Requires: pbuilder
+Requires: perl-Image-ExifTool
+Requires: pkg-config
+Requires: python3
+Requires: qt5-qtbase-devel
+Requires: quilt
+Requires: R-base
+Requires: rpm
+Requires: texlive-epstopdf-bin
+Requires: urw-base35-fonts
+Requires: valgrind
+Recommends: rsplib-devel
+
+
+%description development
+This meta-package contains basic software for SimulaMet development.
+The software installed provides a common working environment.
+See https://www.simulamet.no for details on SimulaMet!
+
+%files development
+/boot/SimulaMet/Gressholmen-1024x768.jpeg
+/etc/grub.d/??_simulamet_development_theme
+
+%post development
+if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
+
+%postun development
+rm -f /etc/grub.d/??_simulamet_desktop_theme
+if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
+
+
+%package desktop
+Summary: SimulaMet Desktop
+Group: Applications/Internet
+Requires: %{name}-management = %{version}-%{release}
+
+%description desktop
+This meta-package contains the scripts to configure a SimulaMet desktop.
+See https://www.simulamet.no for details on SimulaMet!
+
+%files desktop
+/boot/SimulaMet/Desktop1-1024x768.jpeg
+/etc/grub.d/??_simulamet_desktop_theme
+/usr/share/simulamet/SimulaMet-A4.pdf
 /usr/share/simulamet/Desktop-with-Logo/*x*/*/*
 /usr/share/simulamet/Desktop-without-Logo/*x*/*/*
-/usr/share/simulamet/Splash/*
+%ghost /usr/share/simulamet-nornet/Splash
 
-%doc
+%post desktop
+if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
+
+%postun desktop
+rm -f /etc/grub.d/??_simulamet_desktop_theme
+if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
 
 
 %changelog

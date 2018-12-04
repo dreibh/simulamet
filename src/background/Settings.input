@@ -30,6 +30,9 @@ EXECUTE_PROCESS(COMMAND env LC_TIME=de_DE.UTF-8 date "+%Y"
                 OUTPUT_VARIABLE this_year OUTPUT_STRIP_TRAILING_WHITESPACE)
 EXECUTE_PROCESS(COMMAND env LC_TIME=de_DE.UTF-8 date
                 OUTPUT_VARIABLE this_date OUTPUT_STRIP_TRAILING_WHITESPACE)
+EXECUTE_PROCESS(COMMAND head -n1 ${CMAKE_SOURCE_DIR}/debian/changelog
+                COMMAND sed -e "s/[a-zA-Z0-9 \\-]*(//" -e "s/).*//" -e "s/[0-9]*$//" -e "s/ //g" -e "s/^[0-9]*://" -e "s/-[^ ]*$//g"
+                OUTPUT_VARIABLE this_version OUTPUT_STRIP_TRAILING_WHITESPACE)
 
 
 # ###### Settings ###########################################################
@@ -60,7 +63,7 @@ SET(TDD_JPEG_QUALITY          92.5)
 SET(TDD_BUILD_BOOTSPLASH      1)
 SET(TDD_BOOTSPLASH_RESOLUTION "1024x768")
 SET(TDD_BOOTSPLASH_VARIANT    "plain")
-SET(TDD_BOOTSPLASH_TEXT       "SimulaMet Environment, built on ${this_date}")
+SET(TDD_BOOTSPLASH_TEXT       "SimulaMet Environment ${this_version}, packaged ${this_date}")
 
 SET(TDD_PRINT_VARIANT         "plain")
 SET(TDD_PRINT_IMAGE           "Lindøya.jpeg")
