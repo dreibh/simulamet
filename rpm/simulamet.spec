@@ -106,7 +106,7 @@ See http://www.simulamet.no for details on SimulaMet!
 /boot/SimulaMet/Oslo-1024x768.jpeg
 /etc/grub.d/??_simulamet_management_theme
 /etc/simulamet/simulamet-version
-/usr/share/simulamet-nornet/grub-defaults
+/usr/share/simulamet/grub-defaults
 
 %post management
 echo "Updating /etc/default/grub with NorNet settings:"
@@ -202,12 +202,12 @@ This meta-package contains the scripts to configure a SimulaMet desktop.
 See https://www.simulamet.no for details on SimulaMet!
 
 %files desktop
-/boot/SimulaMet/Desktop1-1024x768.jpeg
+/boot/SimulaMet/Lindøya-1024x768.jpeg
 /etc/grub.d/??_simulamet_desktop_theme
 /usr/share/simulamet/SimulaMet-A4.pdf
 /usr/share/simulamet/Desktop-with-Logo/*x*/*/*
 /usr/share/simulamet/Desktop-without-Logo/*x*/*/*
-%ghost /usr/share/simulamet-nornet/Splash
+%ghost /usr/share/simulamet/Splash
 
 %post desktop
 if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
