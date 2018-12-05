@@ -121,7 +121,7 @@ Depends: autoconf,
          r-cran-ggplot2,
          r-cran-hmisc,
          rpm,
-         simulamet-management (>= ${source:Version}),
+         simulamet-management (= ${binary:Version}),
          sysvbanner,
          valgrind,
          ${misc:Depends},
@@ -139,7 +139,7 @@ Architecture: any
 Depends: firefox | firefox-esr,
          kubuntu-desktop | neon-desktop | kde-standard | deepin-desktop-environment | lubuntu-desktop | ubuntu-desktop,
          sddm | kdm | lightdm | gdm3,
-         simulamet-management (>= ${source:Version}),
+         simulamet-management (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: SimulaMet Desktop
