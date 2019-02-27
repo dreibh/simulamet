@@ -23,11 +23,12 @@ BuildRequires: perl-Image-ExifTool
 BuildRequires: urw-base35-fonts
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
 
+
 # This package does not generate debug information (no executables):
 %global debug_package %{nil}
 
 # TEST ONLY:
-# %define _unpackaged_files_terminate_build 0
+# define _unpackaged_files_terminate_build 0
 
 
 %description
@@ -56,6 +57,7 @@ mv %{buildroot}/usr/share/simulamet/Splash/simulamet-version   %{buildroot}/etc/
 %package management
 Summary: SimulaMet Management
 Group: Applications/Internet
+BuildArch: noarch
 Requires: bash-completion
 Requires: bridge-utils
 Requires: btrfs-progs
@@ -126,6 +128,7 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 %package development
 Summary: SimulaMet Development
 Group: Applications/Internet
+BuildArch: noarch
 Requires: %{name}-management = %{version}-%{release}
 Requires: autoconf
 Requires: automake
@@ -195,6 +198,7 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 %package desktop
 Summary: SimulaMet Desktop
 Group: Applications/Internet
+BuildArch: noarch
 Requires: %{name}-management = %{version}-%{release}
 
 %description desktop

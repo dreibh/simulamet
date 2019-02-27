@@ -14,12 +14,12 @@ Build-Depends: cmake (>= 3.0.2) | cmake3,
                gsfonts,
                libfile-fcntllock-perl,
                libimage-exiftool-perl
-Standards-Version: 4.2.1
+Standards-Version: 4.3.0
 Vcs-Git: https://github.com/dreibh/simulamet.git
 Vcs-Browser: https://github.com/dreibh/simulamet
 
 Package: simulamet-management
-Architecture: any
+Architecture: all
 Depends: apt-file,
          apt-show-versions,
          bash-completion,
@@ -82,7 +82,7 @@ Description: SimulaMet Management Tools
  See http://www.simulamet.no for details on SimulaMet!
 
 Package: simulamet-development
-Architecture: any
+Architecture: all
 Depends: autoconf,
          automake,
          bc,
@@ -135,7 +135,7 @@ Description: SimulaMet Development Tools
  See http://www.simulamet.no for details on SimulaMet!
 
 Package: simulamet-desktop
-Architecture: any
+Architecture: all
 Depends: firefox | firefox-esr,
          kubuntu-desktop | neon-desktop | kde-standard | deepin-desktop-environment | lubuntu-desktop | ubuntu-desktop,
          sddm | kdm | lightdm | gdm3,
