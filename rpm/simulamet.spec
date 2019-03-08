@@ -106,9 +106,9 @@ See http://www.simulamet.no for details on SimulaMet!
 
 %files management
 /boot/SimulaMet/Oslo-1024x768.jpeg
-/etc/grub.d/??_simulamet_management_theme
-/etc/simulamet/simulamet-version
-/usr/share/simulamet/grub-defaults
+%{_sysconfdir}/grub.d/??_simulamet_management_theme
+%{_sysconfdir}/simulamet/simulamet-version
+%{_datadir}/simulamet/grub-defaults
 
 %post management
 echo "Updating /etc/default/grub with NorNet settings:"
@@ -185,7 +185,7 @@ See https://www.simulamet.no for details on SimulaMet!
 
 %files development
 /boot/SimulaMet/Gressholmen-1024x768.jpeg
-/etc/grub.d/??_simulamet_development_theme
+%{_sysconfdir}/grub.d/??_simulamet_development_theme
 
 %post development
 if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
@@ -207,10 +207,10 @@ See https://www.simulamet.no for details on SimulaMet!
 
 %files desktop
 /boot/SimulaMet/Lindøya-1024x768.jpeg
-/etc/grub.d/??_simulamet_desktop_theme
-/usr/share/simulamet/SimulaMet-A4.pdf
-/usr/share/simulamet/Desktop-with-Logo/*x*/*/*
-/usr/share/simulamet/Desktop-without-Logo/*x*/*/*
+%{_sysconfdir}/grub.d/??_simulamet_desktop_theme
+%{_datadir}/simulamet/SimulaMet-A4.pdf
+%{_datadir}/simulamet/Desktop-with-Logo/*x*/*/*
+%{_datadir}/simulamet/Desktop-without-Logo/*x*/*/*
 %ghost /usr/share/simulamet/Splash
 
 %post desktop
