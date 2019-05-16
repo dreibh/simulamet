@@ -211,7 +211,7 @@ See https://www.simulamet.no for details on SimulaMet!
 %{_datadir}/simulamet/SimulaMet-A4.pdf
 %{_datadir}/simulamet/Desktop-with-Logo/*x*/*/*
 %{_datadir}/simulamet/Desktop-without-Logo/*x*/*/*
-%ghost /usr/share/simulamet/Splash
+%ghost %{_datadir}/simulamet/Splash
 
 %post desktop
 if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub2/grub.cfg || true ; fi
