@@ -5,7 +5,7 @@ Summary: SimulaMet Desktop
 Group: Applications/Internet
 License: GPLv3
 URL: https://www.simulamet.no
-Source: https://packages.nntb.no/sources/%{name}-%{version}.tar.gz
+Source: https://packages.nntb.no/sources/%{name}-%{version}.tar.xz
 
 AutoReqProv: on
 BuildRequires: cmake
