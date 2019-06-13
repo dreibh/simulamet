@@ -39,7 +39,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-build
 %setup -q
 
 %build
-%cmake -DCMAKE_INSTALL_PREFIX=/usr -DFLAT_DIRECTORY_STRUCTURE=0 -DPRINT_A4=1 -DINSTALL_ORIGINALS=0 .
+# NOTE: CMAKE_VERBOSE_MAKEFILE=OFF for reduced log output!
+%cmake -DCMAKE_INSTALL_PREFIX=/usr -DFLAT_DIRECTORY_STRUCTURE=0 -DPRINT_A4=1 -DINSTALL_ORIGINALS=0 -DCMAKE_VERBOSE_MAKEFILE=OFF .
 make %{?_smp_mflags}
 
 %install
