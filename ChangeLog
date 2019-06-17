@@ -1,3 +1,99 @@
+commit 5d992625ec51a9ef8c5c5a94453dbf580ac93edf
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Jun 17 17:16:55 2019 +0200
+
+    Dependency fix.
+
+commit 6e1044889349d2d227de8762bc8733e6d9dc24c7
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jun 13 13:18:23 2019 +0200
+
+    Packaging file updates.
+
+commit 4c0fb57ad5cf8c7b9a0d887e9a1123d41053b4af
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jun 13 12:56:13 2019 +0200
+
+    Improved build script.
+
+commit d692a4a9c994469442d86b5216585a1e46da2c77
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu May 16 15:20:23 2019 +0200
+
+    Updated dependencies.
+
+commit 1bb6c963f7e7f0c885d70d60633ec74afcc30c46
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu May 16 13:57:41 2019 +0200
+
+    Improved RPM spec file.
+
+commit 1d09ffe2c4c1b9fc81932f26506c3d69e46731cf
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu May 16 12:47:31 2019 +0200
+
+    A fix.
+
+commit ebe950ab67d62f281df785782ab4b2fd4658580d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed May 15 16:24:18 2019 +0200
+
+    Updated Travis CI configuration.
+
+commit 5af9ae66e2f74bd52569196eea92bd908f6c9d63
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon May 6 13:31:53 2019 +0200
+
+    Updated script.
+
+commit d421456a3639ba0177725d196894c194213ce480
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon May 6 13:25:47 2019 +0200
+
+    Updated build script.
+
+commit 4815ec467d150fac55aef943dfde53ff0d1c5a8a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Apr 9 21:24:48 2019 +0200
+
+    Dependency fix.
+
+commit b70198ed5c106f06db5daa8cdd942e6906d2fded
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Apr 9 13:59:07 2019 +0200
+
+    A fix.
+
+commit 6f0afd9d1c569b1b1970263308ad51f74704a2aa
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Apr 9 12:53:54 2019 +0200
+
+    Improved CI scripts.
+
+commit a8a88d348c1d546cc0bfd79b4e6cc6af11963ad8
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Mar 8 16:05:56 2019 +0100
+
+    Using tar.xz.
+
+commit 4a8a3c303bc6db3354ae1fb4f64dc9ea2a61a09d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Mar 8 11:03:19 2019 +0100
+
+    Updated RPM spec file.
+
+commit cd5e9e29f8e5d4053de3e6b983cc033a136fe8d6
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Mar 8 10:33:39 2019 +0100
+
+    Minor update.
+
+commit 4d6ee5cf404ed03984f828f6b7f11b0ebc549101
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Mar 5 18:07:57 2019 +0100
+
+    Updated ChangeLog.
+
 commit 0c5d15576e307b25b907cccbdb90ccfdf8d45cf3
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Tue Mar 5 18:07:21 2019 +0100

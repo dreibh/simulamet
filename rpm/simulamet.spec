@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 0.5.0
+Version: 0.5.1
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
@@ -223,5 +223,7 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 
 
 %changelog
+* Mon Jun 17 2019 Thomas Dreibholz <dreibh@iem.uni-due.de> - 0.5.1
+- New upstream release.
 * Wed Nov 22 2017 Thomas Dreibholz <dreibh@iem.uni-due.de> - 0.0.0
 - Created RPM package.
