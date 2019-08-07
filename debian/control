@@ -1,7 +1,7 @@
 Source: simulamet
 Section: net
 Priority: optional
-Maintainer: Thomas Dreibholz <dreibh@simula.no>
+Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Homepage: http://www.simulamet.no
 Build-Depends: cmake (>= 3.0.2) | cmake3,
                debhelper (>= 9),

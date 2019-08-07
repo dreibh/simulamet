@@ -1,3 +1,99 @@
+commit 8ff1a59f1db92410342d7f5d105f49112262af31
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 18:52:34 2019 +0200
+
+    Updated watch file.
+
+commit d75bdc209306cd3c0d46f4ba027d529bfa3e34df
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 15:30:44 2019 +0200
+
+    Need to check for update-grub before calling it. It may not exist in e.g. Docker environments.
+
+commit 4678159f20e966d9200016d27f3b92538810caf0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 15:29:25 2019 +0200
+
+    Need to check for update-grub before calling it. It may not exist in e.g. Docker environments.
+
+commit d795457cce72c5ab34fce988f3c742ba636bc4d0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 12:14:07 2019 +0200
+
+    Some updates.
+
+commit ca8a34b100d0f0c4360a40018ae208e8431991cb
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 11:33:45 2019 +0200
+
+    Use "update-grub" instead of "/usr/sbin/update-grub" in postinst/postrm scripts.
+
+commit 24ed0ffe2a1ff6d6bd894d5e6f4c3490ace55db4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 10:33:04 2019 +0200
+
+    Fixed some inconsistencies in different packaging files.
+
+commit cb6eaefd027636ce02f90c1513a00afec446f2b9
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 7 10:04:34 2019 +0200
+
+    Updated build scripts.
+
+commit 246a554ffa3a364a6e2573ed7205eb394751b680
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Aug 6 16:50:36 2019 +0200
+
+    Removed leading / from Ubuntu/Debian install files.
+
+commit 2ac6efbbbd75b6b7c9d24d1677df1b039e73fa45
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 5 22:58:52 2019 +0200
+
+    Script update.
+
+commit 82367f850618718de1489017dee06db75687a312
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 5 22:06:50 2019 +0200
+
+    Updated CI scripts.
+
+commit 6f0eca7eccbeff1a4ef9abe852e3204d9cee0327
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 5 17:00:41 2019 +0200
+
+    Updated Debian Standards version.
+
+commit 4f67922db8b012f0130bb66a1353a235e2bc2022
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 5 15:11:17 2019 +0200
+
+    Updated Travis CI configuration.
+
+commit bde5ec835c776eec100d0ab53d4118d5686275f3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 5 15:05:27 2019 +0200
+
+    Build script updates.
+
+commit f641278fc79379627147d4295a8d3847586903d4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jul 18 12:32:08 2019 +0200
+
+    Updated build scripts.
+
+commit b46af0c0673d2a8d1a2f8c6b1f2173fa82893d7c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jul 18 12:18:04 2019 +0200
+
+    Updated build scripts.
+
+commit ec826012c4ac700048d897bb9f4bab714e09f651
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Jul 5 21:26:05 2019 +0200
+
+    New release simulamet-0.5.3.
+
 commit 6a410d2dd13538e330532c1c1fcf82a01d37fbbb
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Fri Jul 5 21:24:53 2019 +0200
