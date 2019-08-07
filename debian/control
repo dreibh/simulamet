@@ -74,7 +74,7 @@ Recommends: apport-retrace,
             rsplib-tools,
             tshark,
             update-motd
-Description: SimulaMet Management Tools
+Description: Management tools for the SimulaMet system environment
  This metapackage contains basic software for SimulaMet system management.
  The software installed provides a common working environment.
  .
@@ -124,8 +124,8 @@ Depends: autoconf,
          ${shlibs:Depends}
 Recommends: docker.io,
             ubuntu-dev-tools
-Description: SimulaMet Development Tools
- This meta-package contains basic software for SimulaMet development.
+Description: Development tools for the SimulaMet system environment
+ This metapackage contains basic software for SimulaMet development.
  The software installed provides a common working environment.
  .
  See http://www.simulamet.no for details on SimulaMet!
@@ -138,7 +138,7 @@ Depends: firefox | firefox-esr,
          simulamet-management (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: SimulaMet Desktop
- This meta-package contains the scripts to configure a SimulaMet desktop.
+Description: Desktop setup for the SimulaMet system environment
+ This metapackage contains the scripts to configure a SimulaMet desktop.
  .
  See http://www.simulamet.no for details on SimulaMet!

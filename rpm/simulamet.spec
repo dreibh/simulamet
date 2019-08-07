@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 0.5.3
+Version: 0.6.0~rc0
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
@@ -56,7 +56,7 @@ mv %{buildroot}/usr/share/simulamet/Splash/simulamet-version   %{buildroot}/etc/
 
 
 %package management
-Summary: SimulaMet Management
+Summary: Management tools for the SimulaMet system environment
 Group: Applications/Internet
 BuildArch: noarch
 Requires: bash-completion
@@ -127,7 +127,7 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 
 
 %package development
-Summary: SimulaMet Development
+Summary: Development tools for the SimulaMet system environment
 Group: Applications/Internet
 BuildArch: noarch
 Requires: %{name}-management = %{version}-%{release}
@@ -180,7 +180,7 @@ Recommends: rsplib-devel
 
 
 %description development
-This meta-package contains basic software for SimulaMet development.
+This metapackage contains basic software for SimulaMet development.
 The software installed provides a common working environment.
 See https://www.simulamet.no for details on SimulaMet!
 
@@ -197,13 +197,13 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 
 
 %package desktop
-Summary: SimulaMet Desktop
+Summary: Desktop setup for the SimulaMet system environment
 Group: Applications/Internet
 BuildArch: noarch
 Requires: %{name}-management = %{version}-%{release}
 
 %description desktop
-This meta-package contains the scripts to configure a SimulaMet desktop.
+This metapackage contains the scripts to configure a SimulaMet desktop.
 See https://www.simulamet.no for details on SimulaMet!
 
 %files desktop
