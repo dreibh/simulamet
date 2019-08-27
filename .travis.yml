@@ -249,4 +249,7 @@ install:
 
 script:
   - ci/build
-  - ci/test
+  - |
+    if [ "${VARIANT}" != "debian" ] ; then   # There is no Debian PPA for the required rsplib-* packages!
+       ci/test
+    fi
