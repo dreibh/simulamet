@@ -78,11 +78,14 @@ Requires: lksctp-tools
 Requires: mlocate
 Requires: net-snmp-utils
 Requires: net-tools
+Requires: netperfmeter
 Requires: nmap
 Requires: ntpdate
 Requires: pxz
 Requires: reiserfs-utils
 Requires: reprepro
+Requires: rsplib-services
+Requires: rsplib-tools
 Requires: smartmontools
 Requires: subnetcalc
 Requires: tcpdump
@@ -94,10 +97,6 @@ Requires: virt-what
 Requires: whois
 Recommends: grub2-tools
 Recommends: ipsec-tools
-Recommends: netperfmeter
-Recommends: rsplib-docs
-Recommends: rsplib-services
-Recommends: rsplib-tools
 Recommends: wireshark-cli
 
 %description management
@@ -170,13 +169,14 @@ Requires: perl-Image-ExifTool
 Requires: pkg-config
 Requires: python3
 Requires: qt5-qtbase-devel
+Requires: rsplib-devel
 Requires: quilt
 Requires: R-base
 Requires: rpm
+Requires: rsplib-docs
 Requires: texlive-epstopdf-bin
 Requires: urw-base35-fonts
 Requires: valgrind
-Recommends: rsplib-devel
 
 
 %description development
