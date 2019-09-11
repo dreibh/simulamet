@@ -169,7 +169,7 @@ Requires: perl-Image-ExifTool
 Requires: pkg-config
 Requires: python3
 Requires: qt5-qtbase-devel
-Requires: rsplib-devel
+Requires: rsplib-librsplib-devel
 Requires: quilt
 Requires: R-base
 Requires: rpm
