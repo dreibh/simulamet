@@ -1,3 +1,76 @@
+commit b1c1ca31b75120f3f6aeff4ec54eec9504f29811
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 18 08:57:59 2019 +0200
+
+    Updated build scripts
+
+commit bbf42e3e413fc886ccd4e65afd0dac69a65ec897
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 11 17:21:18 2019 +0300
+
+    Version bump.
+
+commit 4f487695bc23129e7d4a68d76c55ae8f91d9f600
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 11 17:21:01 2019 +0300
+
+    Updated Travis CI configuration.
+
+commit b754111471ac1442fc0ec43a8d74cbb91ee9ef3a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 11 17:02:13 2019 +0300
+
+    Updated build scripts
+
+commit fe94952d2572e5e6f11e29c8517ac0cb21e832e2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 11 17:01:48 2019 +0300
+
+    Dependency fix.
+
+commit 6005a514ca78eabd4c0ee1379ed0afdee2569ade
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Sep 10 15:44:52 2019 +0300
+
+    Updated build scripts
+
+commit c37eef459108528d21ae81e56212b74b9ba60f73
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Sep 10 15:44:18 2019 +0300
+
+    Updated Travis CI configuration.
+
+commit 09e6c692117c262c1b0c3950eccb1b007653ca03
+Merge: 25650bf 499104b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 4 22:50:46 2019 +0200
+
+    Merge branch 'master' of github.com:dreibh/simulamet
+
+commit 25650bfe1588976651e1972a6c5dc702fae7397e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 4 22:50:41 2019 +0200
+
+    Updated build scripts
+
+commit 499104b9d8378137a1afef94cbfb0aafdea46d23
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Aug 27 14:55:25 2019 +0200
+
+    Dependency updates.
+
+commit 3d343b85839aa84fb0501316893e36589a0fdb98
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Aug 26 13:02:26 2019 +0200
+
+    Updated build scripts
+
+commit 2883d3846eb7cf12be91de10f1edb857a35724c4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Aug 22 17:54:52 2019 +0200
+
+    New release simulamet-0.7.0.
+
 commit f60d16b59bb9a4ef546a40ac722d6a115a9a7335
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Thu Aug 22 10:47:45 2019 +0200
