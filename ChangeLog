@@ -1,3 +1,27 @@
+commit e18e7d60a91a97a4be06e7faafa871577f2a7187
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 13 10:58:48 2019 +0100
+
+    Minor update.
+
+commit ab530363387a6b6f67937fcdf48a63e21a97ef67
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Oct 18 12:26:40 2019 +0200
+
+    Updated build scripts
+
+commit 2b1a3aae5bcca38fcfa747d9ea69ec70e2a9abdf
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Oct 16 13:52:29 2019 +0200
+
+    Updated build scripts
+
+commit 091ffb72d7a49082cda834118d367b5694c4001c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Sep 20 19:58:56 2019 +0200
+
+    New release simulamet-0.7.1.
+
 commit b1c1ca31b75120f3f6aeff4ec54eec9504f29811
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Sep 18 08:57:59 2019 +0200
