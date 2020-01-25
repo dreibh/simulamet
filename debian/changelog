@@ -1,3 +1,9 @@
+simulamet (1.0.1-1ubuntu1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Sat, 25 Jan 2020 14:43:41 +0100
+
 simulamet (1.0.0-1ubuntu1) bionic; urgency=medium
 
   * New upstream release.
