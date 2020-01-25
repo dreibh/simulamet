@@ -1,3 +1,39 @@
+commit 3589579bea59eeaedfb05c1a00b69d5a6438a32d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 13:19:18 2019 +0100
+
+    Updated Travis CI configuration: added Ubuntu 20.04.
+
+commit f1f3815014697438ab647e65aaa6ea7ba2a83565
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 12:32:12 2019 +0100
+
+    Updated Travis CI configuration: removed Fedora 29, added Fedora 31.
+
+commit 8730357b730c40b5823e267a3502bb63862cc1c4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 12:19:47 2019 +0100
+
+    Header updates.
+
+commit 744b00a4ab9d382bdd766a9758a2080a43893574
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 12:15:10 2019 +0100
+
+    Updated build scripts
+
+commit 0b92aacac1abed97272bda656836daae1c9e11a1
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 12:15:10 2019 +0100
+
+    Updated build scripts
+
+commit ef204e2adbbb4039c75fd0d85237f8a5f4fa875b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 13 16:28:47 2019 +0100
+
+    New release simulamet-0.8.0.
+
 commit e18e7d60a91a97a4be06e7faafa871577f2a7187
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Nov 13 10:58:48 2019 +0100

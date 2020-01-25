@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 0.8.0
+Version: 1.0.0
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
@@ -223,6 +223,8 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 
 
 %changelog
+* Sat Jan 25 2020 Thomas Dreibholz <dreibh@iem.uni-due.de> - 1.0.0
+- New upstream release.
 * Wed Nov 13 2019 Thomas Dreibholz <dreibh@iem.uni-due.de> - 0.8.0
 - New upstream release.
 * Fri Sep 20 2019 Thomas Dreibholz <dreibh@iem.uni-due.de> - 0.7.1
