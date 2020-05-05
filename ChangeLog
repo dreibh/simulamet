@@ -1,3 +1,75 @@
+commit 36e89210fbe0868572b264109b803a7f27520455
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue May 5 13:15:39 2020 +0200
+
+    Version bump.
+
+commit c5a40cad49fc346609122e78bd01e2b9fd1733c8
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue May 5 08:43:30 2020 +0200
+
+    Updated build scripts
+
+commit af8b5f415c6687b994d870ade9a9c0a412c2bead
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue May 5 08:43:30 2020 +0200
+
+    Updated build scripts
+
+commit 608267631c941fa55d717e2892afc609c84f77f3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue May 5 08:43:09 2020 +0200
+
+    Updated Ubuntu/Debian packaging files.
+
+commit 9440274e4606387aded7ef20ebfab81005b2cddd
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue May 5 08:41:30 2020 +0200
+
+    Updated RPM spec.
+
+commit 4ceb20f02fdc2f25e2381402aafb74acc0e75fe7
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Apr 20 12:25:39 2020 +0200
+
+    Dependency fix.
+
+commit 1548ccd3b6f0bd399a6d6391c0cef47491336b27
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Apr 17 11:30:57 2020 +0200
+
+    Updated Travis CI configuration for Ubuntu builds.
+
+commit 056db1397d52d58bd68cbd2828779e52263fdd55
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Apr 16 11:42:55 2020 +0200
+
+    Updated Travis CI configuration: Ubuntu 19.04 (Disco Dingo) is now obsolete.
+
+commit 272ba7a4de5539a72c5479fc7014cb35a1f2c185
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Apr 14 19:04:43 2020 +0200
+
+    Updated build scripts
+
+commit d2da80374505ae8ff3eac245ec61faa6b839c599
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Mar 26 09:56:55 2020 +0100
+
+    Updated build scripts
+
+commit 9e3a016a17734d925999fe0de60cbf57cf1f05b2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Feb 7 13:39:15 2020 +0100
+
+    Updated build scripts
+
+commit 6a7b46fe63353947fd668f6ec6b0d79b72891627
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sat Jan 25 14:43:43 2020 +0100
+
+    New release simulamet-1.0.1.
+
 commit 80f70ec824cb587252eba8825c9d3c9712ad5cb0
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Sat Jan 25 14:43:35 2020 +0100
