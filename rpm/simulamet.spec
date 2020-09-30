@@ -41,10 +41,10 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-build
 %build
 # NOTE: CMAKE_VERBOSE_MAKEFILE=OFF for reduced log output!
 %cmake -DCMAKE_INSTALL_PREFIX=/usr -DFLAT_DIRECTORY_STRUCTURE=0 -DPRINT_A4=1 -DINSTALL_ORIGINALS=0 -DCMAKE_VERBOSE_MAKEFILE=OFF .
-make %{?_smp_mflags}
+%cmake_build
 
 %install
-make DESTDIR=%{buildroot} install
+%cmake_install
 # ====== Relocate files =====================================================
 mkdir -p %{buildroot}/boot/SimulaMet
 mv %{buildroot}/usr/share/simulamet/Splash/Gressholmen-1024x768.jpeg   %{buildroot}/boot/SimulaMet
