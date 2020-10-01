@@ -2,4 +2,4 @@ etc/grub.d/??_simulamet_desktop_theme
 usr/share/simulamet/*.pdf
 usr/share/simulamet/Desktop-with-Logo/*x*/*/*
 usr/share/simulamet/Desktop-without-Logo/*x*/*/*
-usr/share/simulamet/Splash/Lindøya-1024x768.jpeg /boot/SimulaMet
+usr/share/simulamet/Splash/Lindøya-*.jpeg /boot/SimulaMet

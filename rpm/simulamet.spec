@@ -47,9 +47,9 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-build
 %cmake_install
 # ====== Relocate files =====================================================
 mkdir -p %{buildroot}/boot/SimulaMet
-mv %{buildroot}/usr/share/simulamet/Splash/Gressholmen-1024x768.jpeg   %{buildroot}/boot/SimulaMet
-mv %{buildroot}/usr/share/simulamet/Splash/Lindøya-1024x768.jpeg       %{buildroot}/boot/SimulaMet
-mv %{buildroot}/usr/share/simulamet/Splash/Oslo-1024x768.jpeg          %{buildroot}/boot/SimulaMet
+mv %{buildroot}/usr/share/simulamet/Splash/Gressholmen-*.jpeg   %{buildroot}/boot/SimulaMet
+mv %{buildroot}/usr/share/simulamet/Splash/Lindøya-*.jpeg       %{buildroot}/boot/SimulaMet
+mv %{buildroot}/usr/share/simulamet/Splash/Oslo-*.jpeg          %{buildroot}/boot/SimulaMet
 mkdir -p %{buildroot}/etc/simulamet
 mv %{buildroot}/usr/share/simulamet/Splash/simulamet-version   %{buildroot}/etc/simulamet
 # ===========================================================================
@@ -105,7 +105,7 @@ The software installed provides a common working environment.
 See http://www.simulamet.no for details on SimulaMet!
 
 %files management
-/boot/SimulaMet/Oslo-1024x768.jpeg
+/boot/SimulaMet/Oslo-*.jpeg
 %{_sysconfdir}/grub.d/??_simulamet_management_theme
 %{_sysconfdir}/simulamet/simulamet-version
 %{_datadir}/simulamet/grub-defaults
@@ -187,7 +187,7 @@ The software installed provides a common working environment.
 See https://www.simulamet.no for details on SimulaMet!
 
 %files development
-/boot/SimulaMet/Gressholmen-1024x768.jpeg
+/boot/SimulaMet/Gressholmen-*.jpeg
 %{_sysconfdir}/grub.d/??_simulamet_development_theme
 
 %post development
@@ -209,7 +209,7 @@ This metapackage contains the scripts to configure a SimulaMet desktop.
 See https://www.simulamet.no for details on SimulaMet!
 
 %files desktop
-/boot/SimulaMet/Lindøya-1024x768.jpeg
+/boot/SimulaMet/Lindøya-*.jpeg
 %{_sysconfdir}/grub.d/??_simulamet_desktop_theme
 %{_datadir}/simulamet/SimulaMet-A4.pdf
 %{_datadir}/simulamet/Desktop-with-Logo/*x*/*/*
