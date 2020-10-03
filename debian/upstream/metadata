@@ -2,6 +2,7 @@ Name: SimulaMet
 Homepage: https://www.simulamet.no/
 Repository: https://github.com/dreibh/simulamet.git
 Repository-Browse: https://github.com/dreibh/simulamet
+Bug-Submit: https://github.com/dreibh/simulamet/issues
 Contact: Thomas Dreibholz <dreibh@simula.no>
 Security-Contact: Thomas Dreibholz <dreibh@simula.no>
 Reference:

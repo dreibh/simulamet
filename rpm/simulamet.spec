@@ -109,6 +109,8 @@ See http://www.simulamet.no for details on SimulaMet!
 %{_sysconfdir}/grub.d/??_simulamet_management_theme
 %{_sysconfdir}/simulamet/simulamet-version
 %{_datadir}/simulamet/grub-defaults
+%{_sysconfdir}/system-info.d/20-simulamet
+%{_sysconfdir}/system-maintenance.d/20-simulamet
 
 %post management
 echo "Updating /etc/default/grub with NorNet settings:"

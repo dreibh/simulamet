@@ -72,8 +72,7 @@ Recommends: apport-retrace,
             language-pack-de-base,
             language-pack-en-base,
             language-pack-nb-base,
-            tshark,
-            update-motd
+            tshark
 Description: Management tools for the SimulaMet system environment
  This metapackage contains basic software for SimulaMet system management.
  The software installed provides a common working environment.
