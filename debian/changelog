@@ -1,9 +1,9 @@
-simulamet (1.1.0~alpha1.3-1ubuntu1) bionic; urgency=medium
+simulamet (1.1.0-1ubuntu1) bionic; urgency=medium
 
   * New upstream release.
   * debian/control: Updated standards version to 4.5.0.3.
 
- -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Mon, 05 Oct 2020 10:06:02 +0200
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Tue, 06 Oct 2020 20:49:55 +0200
 
 simulamet (1.0.2-1ubuntu1) bionic; urgency=medium
 
