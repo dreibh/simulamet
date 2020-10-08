@@ -1,3 +1,117 @@
+commit 8dbe1c422221a358f69248d0031df90f1b1b0177
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Oct 5 22:01:46 2020 +0200
+
+    Improved packaging configuration.
+
+commit dfecdadd85837a235fd5044f7fcf249fc6fbc2b4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Oct 4 19:25:33 2020 +0200
+
+    Updated packaging scripts.
+
+commit 3bff248053aa5cb9328fbe6b158fc6c681535e81
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Oct 4 19:22:48 2020 +0200
+
+    Updated file.
+
+commit 7c5bed0d6f1ce30910524d8412e03fd6f4248e00
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Oct 4 18:03:25 2020 +0200
+
+    Updated scripts.
+
+commit f62e9f395b299682e45a95830396c4fd41c0ae0c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sat Oct 3 19:59:21 2020 +0200
+
+    Added images.
+
+commit bc44f991f96009c4e205dc58bece527fa85de176
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sat Oct 3 18:27:54 2020 +0200
+
+    Update to System-Info/System-Maintenance scripts.
+
+commit ecf8dbdab55c53454489308b62eb4daf78b1675f
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Oct 1 11:54:36 2020 +0200
+
+    Packaging file updates.
+
+commit 160da01949fcfe622db816a0f025dd356a10ae09
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Oct 1 11:05:24 2020 +0200
+
+    Updated scripts.
+
+commit 0f3bc6b31640a0c66f573c60e5e559eedd218e4d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 30 17:04:55 2020 +0200
+
+    Updated RPM spec file.
+
+commit 633ef3061698a92e64ab7958c646a71103e1c0bc
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Sep 30 16:55:42 2020 +0200
+
+    Updated build scripts
+
+commit 1a2ba857822e52b99a8d44aabb60d2b543c75e6e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Sep 10 12:41:21 2020 +0200
+
+    Updated build scripts
+
+commit 5b8ebbeac13e97470d02b6df6b88a9cb86ef65f2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Sep 10 12:41:11 2020 +0200
+
+    Updated packaging configuration.
+
+commit 1991e16ad0cb67eb682f3ada996d951c54cc8608
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Sep 10 12:36:38 2020 +0200
+
+    Updated signing key.
+
+commit c1065edf8185a481984455c84b5dcf249c6737a5
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Sep 4 14:15:28 2020 +0200
+
+    Updated build scripts
+
+commit eb81fc37804c75854c4d0aabec77bbe0b14ff859
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Sep 4 14:11:58 2020 +0200
+
+    Updated Travis CI configuration.
+
+commit 77a5ff307437f300f37a20028d94527eee3aca65
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Sep 4 14:09:51 2020 +0200
+
+    Updated build scripts
+
+commit b811aba2d883170a133a0f04df3535b47b833e5d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jul 16 11:58:02 2020 +0200
+
+    Updated build scripts
+
+commit 8802d1e5693c83c81d59e60566bc331ed7825ff4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jul 16 11:48:46 2020 +0200
+
+    Fixed packaging configuration.
+
+commit 25d57aec194b7eca991e26fb8c5f718083753e33
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue May 5 13:17:05 2020 +0200
+
+    New release simulamet-1.0.2.
+
 commit 36e89210fbe0868572b264109b803a7f27520455
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Tue May 5 13:15:39 2020 +0200

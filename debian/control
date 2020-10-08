@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: Thomas Dreibholz <dreibh@iem.uni-due.de>
 Homepage: http://www.simulamet.no
-Build-Depends: cmake (>= 3.0.2) | cmake3,
+Build-Depends: cmake (>= 3.3) | cmake3,
                debhelper (>= 9),
                fonts-dejavu,
                fonts-noto-cjk,
@@ -14,7 +14,8 @@ Build-Depends: cmake (>= 3.0.2) | cmake3,
                gsfonts,
                libfile-fcntllock-perl,
                libimage-exiftool-perl
-Standards-Version: 4.5.0.2
+Standards-Version: 4.5.0.3
+Rules-Requires-Root: no
 Vcs-Git: https://github.com/dreibh/simulamet.git
 Vcs-Browser: https://github.com/dreibh/simulamet
 
@@ -71,8 +72,7 @@ Recommends: apport-retrace,
             language-pack-de-base,
             language-pack-en-base,
             language-pack-nb-base,
-            tshark,
-            update-motd
+            tshark
 Description: Management tools for the SimulaMet system environment
  This metapackage contains basic software for SimulaMet system management.
  The software installed provides a common working environment.
@@ -86,7 +86,7 @@ Depends: autoconf,
          bc,
          bison,
          clang,
-         cmake (>= 3.0.2) | cmake3,
+         cmake (>= 3.3) | cmake3,
          debhelper,
          devscripts,
          extra-cmake-modules,
