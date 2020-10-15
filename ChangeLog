@@ -1,3 +1,22 @@
+commit 8bf12eb069f6311ba793af7e9222e10a87e8e80c
+Merge: 1d47a60 f89f5b1
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Oct 8 15:18:46 2020 +0200
+
+    Merge branch 'master' of github.com:dreibh/simulamet
+
+commit 1d47a60b6193dc21f334027690c06c0d75871162
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Oct 8 15:18:39 2020 +0200
+
+    Dependency updates.
+
+commit f89f5b162bba217011bad8fbd4d9ab07097b7cfc
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Oct 6 20:50:09 2020 +0200
+
+    New release simulamet-1.1.0.
+
 commit 8dbe1c422221a358f69248d0031df90f1b1b0177
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Mon Oct 5 22:01:46 2020 +0200
