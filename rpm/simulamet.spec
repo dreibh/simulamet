@@ -81,6 +81,7 @@ Requires: net-tools
 Requires: netperfmeter
 Requires: nmap
 Requires: ntpdate
+Requires: parallel
 Requires: pxz
 Requires: reiserfs-utils
 Requires: reprepro
@@ -172,6 +173,7 @@ Requires: R-base
 Requires: rpm
 Requires: rsplib-docs
 Requires: texlive-epstopdf-bin
+Requires: tidy
 Requires: urw-base35-fonts
 Requires: valgrind
 
