@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 1.1.4
+Version: 1.1.5
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
@@ -129,6 +129,7 @@ Requires: %{name}-management = %{version}-%{release}
 Requires: autoconf
 Requires: automake
 Requires: banner
+Requires: bibtexconv
 Requires: bison
 Requires: boost-devel
 Requires: bzip2-devel
@@ -222,6 +223,8 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 
 
 %changelog
+* Tue Dec 15 2020 Thomas Dreibholz <dreibh@iem.uni-due.de> - 1.1.5
+- New upstream release.
 * Tue Dec 08 2020 Thomas Dreibholz <dreibh@iem.uni-due.de> - 1.1.4
 - New upstream release.
 * Sun Nov 15 2020 Thomas Dreibholz <dreibh@iem.uni-due.de> - 1.1.3
