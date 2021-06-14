@@ -80,7 +80,7 @@ Requires: net-snmp-utils
 Requires: net-tools
 Requires: netperfmeter
 Requires: nmap
-Requires: ntpdate
+Requires: (ntpsec or ntpdate)
 Requires: parallel
 Requires: pxz
 Requires: reiserfs-utils
