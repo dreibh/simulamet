@@ -1,3 +1,99 @@
+commit f4b3cee74d26de335a7b38afa429fba21e3db30e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Feb 14 17:15:05 2022 +0100
+
+    Updated build scripts
+
+commit 5749392ee46db1769908fc22094c53fce089f15b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jan 12 20:12:10 2022 +0100
+
+    Added file.
+
+commit ef5e5ee46847f216589331e8908974c89e7c4aa0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jan 12 19:52:44 2022 +0100
+
+    Header updates.
+
+commit dc15c4a88dbca3626e4ddc2f19db8077f36ae51a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jan 12 19:52:38 2022 +0100
+
+    Updated settings.
+
+commit e87a021c715cf20d37d48907962293b3305c3955
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jan 12 19:42:04 2022 +0100
+
+    Improved background generator.
+
+commit 49e4609120ce0e69018bd1e84a97dcff9861e12b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Nov 30 15:31:38 2021 +0100
+
+    Updated CI scripts
+
+commit c2b991f205498302b281bf2c51373bb3156b29c0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Nov 30 15:31:33 2021 +0100
+
+    Travis CI is dead. Removed obsolete Travis CI scripts and configuration.
+
+commit 0a689df26c4c2e0fab8817022a1375b392050cd2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Nov 30 15:30:37 2021 +0100
+
+    Updated build scripts
+
+commit 18c32a21b724d3c19a08bc0f027e58891bb8b200
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Nov 30 15:29:42 2021 +0100
+
+    Removed invalid field "Homepage" from debian/upstream/metadata
+
+commit 9e6ef0497e37b6924607f3bafa360afabaec18a3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Nov 8 10:39:01 2021 +0100
+
+    Updated build scripts
+
+commit bf5a50a7a217b351f5eaf379ca0615de84042443
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Nov 7 14:27:37 2021 +0100
+
+    Updated build scripts.
+
+commit 9a17f6cb16b313f6d2c98deb1ea798546ba19ed2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Nov 7 14:22:53 2021 +0100
+
+    Updated build scripts
+
+commit 25fb73bda546ed85864ec7f35a928c1bcb65efce
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 3 18:23:47 2021 +0100
+
+    Updated build scripts
+
+commit 309e70aa283b842a4770ac6f28815805adc25135
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 3 18:23:43 2021 +0100
+
+    Updated build scripts
+
+commit bb329538f0444d68aabb08905d52deab14ced9ae
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Oct 19 16:11:57 2021 +0200
+
+    Updated build scripts
+
+commit c2053c67bf064218632242422de6e333daed336a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Jun 14 12:44:36 2021 +0200
+
+    New release simulamet-1.1.6.
+
 commit d851d24dab34955ee1b1ddc8172590c9cbb7416f
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Mon Jun 14 12:42:21 2021 +0200
