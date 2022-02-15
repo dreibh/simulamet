@@ -1,3 +1,9 @@
+simulamet (1.1.8-1ubuntu1) hirsute; urgency=medium
+
+  * New upstream release.
+
+ -- Thomas Dreibholz <dreibh@iem.uni-due.de>  Tue, 15 Feb 2022 08:53:01 +0100
+
 simulamet (1.1.7-1ubuntu1) hirsute; urgency=medium
 
   * New upstream release.

@@ -1,3 +1,15 @@
+commit b0e134d9bacc32b26812de222823e5a18825bed1
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Feb 15 08:51:42 2022 +0100
+
+    A fix.
+
+commit a6765e6bad963a0c1af6bb5f4e9f08263fbb8ea2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Feb 14 17:15:39 2022 +0100
+
+    New release simulamet-1.1.7.
+
 commit f4b3cee74d26de335a7b38afa429fba21e3db30e
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Mon Feb 14 17:15:05 2022 +0100
