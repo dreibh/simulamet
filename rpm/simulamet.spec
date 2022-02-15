@@ -83,7 +83,6 @@ Requires: nmap
 Requires: (ntpsec or ntpdate)
 Requires: parallel
 Requires: pxz
-Requires: reiserfs-utils
 Requires: reprepro
 Requires: rsplib-services
 Requires: rsplib-tools
@@ -97,6 +96,7 @@ Requires: vconfig
 Requires: virt-what
 Requires: whois
 Recommends: grub2-tools
+Recommends: reiserfs-utils
 Recommends: ipsec-tools
 Recommends: wireshark-cli
 
