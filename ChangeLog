@@ -1,3 +1,33 @@
+commit c14f9804b99fa897a71e6f13214d331aad0cbb0b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 31 11:48:13 2022 +0200
+
+    Removed Vcs-* fields from debian/control.
+
+commit 01428eb929f408eb2db09944ae2f7be72bc298d3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 31 11:19:43 2022 +0200
+
+    Updated CI scripts
+
+commit 1dd8da894955e801192544b93d181d0f6ae2615f
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Aug 31 11:19:42 2022 +0200
+
+    Updated build scripts
+
+commit 2a792e2002eb132479dffdefbc3d2d321baf2f1f
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Feb 15 16:20:44 2022 +0100
+
+    RPM fix.
+
+commit 9b2520fbc8d2f17c25e6a2d7007f4f70fc3f6e2b
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Feb 15 08:53:05 2022 +0100
+
+    New release simulamet-1.1.8.
+
 commit b0e134d9bacc32b26812de222823e5a18825bed1
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Tue Feb 15 08:51:42 2022 +0100
