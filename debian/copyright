@@ -1,10 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: simulamet
-Upstream-Contact: Thomas Dreibholz <dreibh@iem.uni-due.de>
+Upstream-Contact: Thomas Dreibholz <thomas.dreibholz@gmail.com>
 Source: https://www.simulamet.no
 
 Files: *
-Copyright: Copyright 2017-2022 Thomas Dreibholz
+Copyright: Copyright 2017-2023 Thomas Dreibholz
 License: GPL-3+
 
 License: GPL-3+
