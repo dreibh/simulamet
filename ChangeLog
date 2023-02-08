@@ -1,3 +1,39 @@
+commit 3a118393ec36803f1ba8b2d670af15cc5dceca2d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Feb 2 13:23:07 2023 +0100
+
+    URL change from UDE to NNTB.
+
+commit f7af7ba94d9876a1f3930602625ee6a0099ac797
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Feb 2 12:13:30 2023 +0100
+
+    Updated autogen.sh.
+
+commit 897eb306e48106aa3783be655a893f870d6f0ff3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Feb 2 11:56:01 2023 +0100
+
+    Travis CI is dead. Removed obsolete Travis CI scripts and configuration.
+
+commit 1b44fd3ebe1c4d9029d2920d54a6ee600db07145
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Feb 2 11:55:59 2023 +0100
+
+    Updated build scripts
+
+commit a0c0b4b1fa325d69f5d24458474fcda5b83d7b27
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Feb 2 11:52:34 2023 +0100
+
+    Travis CI is dead. Removed obsolete Travis CI scripts and configuration.
+
+commit 0aa41fd675f8335a9c7d117f9b7433d79b0ccbe2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 11 13:32:12 2022 +0200
+
+    New release simulamet-1.1.9.
+
 commit c14f9804b99fa897a71e6f13214d331aad0cbb0b
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Aug 31 11:48:13 2022 +0200

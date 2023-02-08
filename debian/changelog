@@ -1,3 +1,10 @@
+simulamet (1.1.10-1ubuntu1) hirsute; urgency=medium
+
+  * New upstream release.
+  * debian/control: Updated standards version to 4.6.2.
+
+ -- Thomas Dreibholz <dreibh@simula.no>  Wed, 08 Feb 2023 11:46:26 +0100
+
 simulamet (1.1.9-1ubuntu1) hirsute; urgency=medium
 
   * New upstream release.
