@@ -3,8 +3,8 @@ Section: net
 Priority: optional
 Maintainer: Thomas Dreibholz <thomas.dreibholz@gmail.com>
 Homepage: http://www.simulamet.no
-Build-Depends: cmake (>= 3.3) | cmake3,
-               debhelper (>= 9),
+Build-Depends: cmake,
+               debhelper (>= 12),
                fonts-dejavu,
                fonts-noto-cjk,
                fonts-noto-hinted,
@@ -40,8 +40,8 @@ Depends: apt-file,
          joe,
          libfile-fcntllock-perl,
          lksctp-tools,
-         lsb-base (>= 3.2-14),
-         mlocate,
+         sysvinit-core,
+         mlocate | plocate,
          net-tools,
          netperfmeter,
          nmap,
