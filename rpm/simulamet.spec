@@ -20,6 +20,7 @@ BuildRequires: google-noto-sans-fonts
 BuildRequires: google-noto-serif-fonts
 BuildRequires: GraphicsMagick
 BuildRequires: perl-Image-ExifTool
+BuildRequires: pygtk2
 BuildRequires: urw-base35-fonts
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
 
@@ -149,7 +150,6 @@ Requires: ghostscript
 Requires: gimp
 Requires: glib2-devel
 Requires: gnupg
-Requires: gnuplot
 Requires: google-noto-cjk-fonts
 Requires: google-noto-sans-fonts
 Requires: google-noto-serif-fonts
