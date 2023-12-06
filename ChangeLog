@@ -1,3 +1,51 @@
+commit 308142297d69e3f68af8d46cf7e7273005eb546f
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Dec 6 14:38:02 2023 +0100
+
+    Dependency fixes.
+
+commit b65e40c1c1129b45fa452ce89bb0c9af32ff16fe
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 11:42:31 2023 +0100
+
+    Dependency improvements.
+
+commit 8976333de748efae53877eb9f2d36104edfa48c5
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 10:53:51 2023 +0100
+
+    Packaging clean-ups.
+
+commit f616bdb9465cfe667084f769c5ab981342787754
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:53:31 2023 +0100
+
+    Header updates.
+
+commit d0c016a9319260cda7944dd8c18968cc4441cfa1
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:51:09 2023 +0100
+
+    Updated build scripts
+
+commit 028bac458d3fdb9f672973a76854e135dc489550
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:32:55 2023 +0100
+
+    Updated CI scripts
+
+commit 23cd7e4f724d12b4bcbc400222ea564825385d85
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 15 09:32:53 2023 +0100
+
+    Updated build scripts
+
+commit 830f52a93b6d79fb4e1297d57bd2930791f6468e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Aug 8 09:16:06 2023 +0200
+
+    New release simulamet-1.1.11.
+
 commit 92613723d285c40395c361c468888034cf05a4b0
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Tue Aug 8 09:15:51 2023 +0200
