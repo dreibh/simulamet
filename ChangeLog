@@ -1,3 +1,15 @@
+commit 35d319cc5004c27ccb2e4843753b858ad7a07e8a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 19 15:27:51 2023 +0100
+
+    Dependency update.
+
+commit 4a0cb8f12a7829ad68ffcb34eaeaa4227c52b503
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 12 17:13:58 2023 +0100
+
+    New release simulamet-1.1.13.
+
 commit 44fba6878b314307b5d9a70740417ce9eaae4212
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Thu Dec 7 10:20:45 2023 +0100
