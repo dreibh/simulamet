@@ -76,7 +76,7 @@ Requires: joe
 Requires: jq
 Requires: libidn
 Requires: lksctp-tools
-Requires: mlocate
+Requires: (mlocate or plocate)
 Requires: net-snmp-utils
 Requires: net-tools
 Requires: netperfmeter
