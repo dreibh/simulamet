@@ -13,7 +13,7 @@ Build-Depends: cmake,
                graphicsmagick,
                gsfonts,
                libimage-exiftool-perl
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Rules-Requires-Root: no
 
 Package: simulamet-management
@@ -104,7 +104,6 @@ Depends: autoconf,
          libsctp-dev,
          libtool,
          pbuilder,
-         pkg-config,
          python3-all,
          qtbase5-dev,
          qttools5-dev-tools,

@@ -163,7 +163,6 @@ Requires: mock
 Requires: openssl-devel
 Requires: pbuilder
 Requires: perl-Image-ExifTool
-Requires: pkg-config
 Requires: python3
 Requires: qtchooser
 Requires: qt5-linguist
