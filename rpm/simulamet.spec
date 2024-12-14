@@ -3,7 +3,7 @@ Version: 1.2.0
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
-License: GPL-3+
+License: GPL-3.0-or-later
 URL: https://www.simulamet.no
 Source: https://packages.nntb.no/sources/%{name}-%{version}.tar.xz
 
