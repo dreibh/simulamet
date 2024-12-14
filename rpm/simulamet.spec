@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 1.1.14
+Version: 1.2.0
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
@@ -222,6 +222,8 @@ if [ -e /usr/sbin/grub2-mkconfig ] ; then /usr/sbin/grub2-mkconfig -o /boot/grub
 
 
 %changelog
+* Sat Dec 14 2024 Thomas Dreibholz <dreibh@simula.no> - 1.2.0
+- New upstream release.
 * Tue Dec 19 2023 Thomas Dreibholz <dreibh@simula.no> - 1.1.14
 - New upstream release.
 * Tue Dec 12 2023 Thomas Dreibholz <dreibh@simula.no> - 1.1.13

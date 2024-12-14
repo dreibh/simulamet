@@ -1,3 +1,39 @@
+commit d91d0f847d480b50434b2676a9514ecdb9fffe6d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 17:48:36 2024 +0100
+
+    Updated CMakeLists.txt.
+
+commit 944ae62a161dec05f124558eda6f61e2145ddf6f
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 17:18:44 2024 +0100
+
+    Packaging updates.
+
+commit 3caf3c066ba1dcc4b8c63e9f66cc8303472971a0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 16:09:07 2024 +0100
+
+    Updated CI scripts
+
+commit ca647be91f5f444e4672d8f96f99efe46fa3e075
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 5 16:09:01 2024 +0100
+
+    Updated build scripts
+
+commit 46af2dc9fa075f163ba77486ad5fd6f24ddf0d2c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Feb 2 10:04:15 2024 +0100
+
+    Dependency fix.
+
+commit 8cdd2380d5daec3bdfec76a69f799592b9cdfb00
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 19 15:28:28 2023 +0100
+
+    New release simulamet-1.1.14.
+
 commit 35d319cc5004c27ccb2e4843753b858ad7a07e8a
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Tue Dec 19 15:27:51 2023 +0100
