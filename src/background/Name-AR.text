@@ -1,2 +1,2 @@
 ar="توماس ترايبهولس"
-${MAKE_GLOSSYTEXT} ${OUTPUT}   "$ar"   256   --bordersize 10   --colorscheme "Golden" --font "DejaVu Sans"
+${MAKE_GLOSSYTEXT} ${OUTPUT}   "$ar"   256   --bordersize 10   --colorscheme "Golden" --font "DejaVu Sans Bold"

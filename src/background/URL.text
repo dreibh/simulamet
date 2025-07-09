@@ -1,1 +1,1 @@
-${MAKE_GLOSSYTEXT} ${OUTPUT}   "dreibh@simula.no"   256   --bordersize 10   --colorscheme "Brushed Aluminium" --font "DejaVu Sans"
+${MAKE_GLOSSYTEXT} ${OUTPUT}   "dreibh@simula.no"   256   --bordersize 10   --colorscheme "Brushed Aluminium" --font "DejaVu Sans Book"
