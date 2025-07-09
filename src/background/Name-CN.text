@@ -1,1 +1,1 @@
-${MAKE_TEXT} ${OUTPUT}   "托马斯博士"   256 10 "Golden"   "DejaVu Sans"
+${MAKE_GLOSSYTEXT} ${OUTPUT}   "托马斯博士"   256   --bordersize 10   --colorscheme "Golden" --font "DejaVu Sans"
