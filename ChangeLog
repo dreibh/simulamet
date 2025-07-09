@@ -1,3 +1,21 @@
+commit 0d29f5b1208d326acecf672be716e3cad40b579d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jul 9 15:12:36 2025 +0200
+
+    Updated background scripts.
+
+commit 28018191c3b4b0edf276bfa83d1099249930b07c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sat Dec 14 16:31:01 2024 +0100
+
+    Another RPM spec file update.
+
+commit f3b9ddeea299e1ad6f8a674124c18c772fe0af74
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sat Dec 14 15:26:18 2024 +0100
+
+    New release simulamet-1.2.0.
+
 commit d91d0f847d480b50434b2676a9514ecdb9fffe6d
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Thu Dec 5 17:48:36 2024 +0100

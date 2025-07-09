@@ -1,3 +1,10 @@
+simulamet (1.2.1-1ubuntu1) questing; urgency=medium
+
+  * New upstream release.
+  * debian/control: Updated standards version to 4.7.2.
+
+ -- Thomas Dreibholz <dreibh@simula.no>  Wed, 09 Jul 2025 15:13:26 +0200
+
 simulamet (1.2.0-1ubuntu1) oracular; urgency=medium
 
   * New upstream release.
