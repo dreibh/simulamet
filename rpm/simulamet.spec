@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 1.2.2
+Version: 1.2.3~rc0
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
@@ -16,6 +16,9 @@ BuildRequires: cmake
 BuildRequires: dejavu-sans-fonts
 BuildRequires: dejavu-sans-mono-fonts
 BuildRequires: dejavu-serif-fonts
+BuildRequires: dejavu-lgc-sans-fonts
+BuildRequires: dejavu-lgc-sans-mono-fonts
+BuildRequires: dejavu-lgc-serif-fonts
 BuildRequires: gcc
 BuildRequires: ghostscript
 BuildRequires: gimp
