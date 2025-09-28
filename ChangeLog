@@ -1,3 +1,33 @@
+commit 37788c2102d6bd8cf5a626b0495b4efb461bfd8e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Jul 10 10:00:39 2025 +0200
+
+    Minor update.
+
+commit 334d41ffa705f1fb77e0c4d84651a740fa599955
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jul 9 16:51:44 2025 +0200
+
+    Version bump.
+
+commit 2c5b7383c83938034753d8bd195059a417a0b871
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jul 9 15:50:02 2025 +0200
+
+    Font fixes.
+
+commit 14d215e4573619bf59dcf531b824ad6dbc898a75
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jul 9 15:17:54 2025 +0200
+
+    Updated CI scripts
+
+commit ef9833c72ca4dbe69b063621284efe49d0a45bd4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Jul 9 15:13:30 2025 +0200
+
+    New release simulamet-1.2.1.
+
 commit 0d29f5b1208d326acecf672be716e3cad40b579d
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Wed Jul 9 15:12:36 2025 +0200
