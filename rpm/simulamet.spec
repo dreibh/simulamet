@@ -13,12 +13,7 @@ ExcludeArch: s390x
 
 AutoReqProv: on
 BuildRequires: cmake
-BuildRequires: dejavu-sans-fonts
-BuildRequires: dejavu-sans-mono-fonts
-BuildRequires: dejavu-serif-fonts
-BuildRequires: dejavu-lgc-sans-fonts
-BuildRequires: dejavu-lgc-sans-mono-fonts
-BuildRequires: dejavu-lgc-serif-fonts
+BuildRequires: dejavu-fonts-all
 BuildRequires: gcc
 BuildRequires: ghostscript
 BuildRequires: gimp
