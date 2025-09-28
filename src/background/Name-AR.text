@@ -1,9 +1,13 @@
+#!/usr/bin/env bash
+
+set -eu
+
 # The style is named "Book" on most systems, but "Regular" on Fedora ...
 style=$(fc-list | grep "^/usr/.*share/fonts/.*dejavu.*/DejaVuSans\.ttf" | sed -e "s/^.*style=//" -e "s/,Book//")
 
 ar="توماس ترايبهولس"
-${MAKE_GLOSSYTEXT} ${OUTPUT}   \
-   "$ar"   256                 \
-   --bordersize 10             \
-   --colorscheme "Golden"      \
+${MAKE_GLOSSYTEXT} "${OUTPUT}"   \
+   "$ar"   256                   \
+   --bordersize 10               \
+   --colorscheme "Golden"        \
    --font "DejaVu Sans ${style}"
