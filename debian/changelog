@@ -1,3 +1,9 @@
+simulamet (1.2.3~rc0-1ubuntu1) questing; urgency=medium
+
+  * New upstream release.
+
+ -- Thomas Dreibholz <dreibh@simula.no>  Sun, 28 Sep 2025 16:12:51 +0200
+
 simulamet (1.2.2-1ubuntu1) questing; urgency=medium
 
   * New upstream release.
