@@ -1,3 +1,71 @@
+commit 9063fa4c46eb80e2686e95731ce6899648b71975
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 28 21:58:37 2025 +0200
+
+    RPM spec dependency improvements.
+
+commit dc5c7b302356bfbf4b1da450f0b5dbc90895da8e
+Author: NorNet Praesum Presum <nornetpp@zollverein.ude.nornet>
+Date:   Sun Sep 28 21:35:09 2025 +0200
+
+    ShellCheck clean-ups.
+
+commit 63d66351a1df0b6f1fa3664870e8387b8bf771c2
+Author: NorNet Praesum Presum <nornetpp@zollverein.ude.nornet>
+Date:   Sun Sep 28 21:30:23 2025 +0200
+
+    Improved scripts.
+
+commit 41f6f937e6e53a442ff4bce878f7a8d70deeaf69
+Merge: 507a316 ac630f9
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 28 21:11:29 2025 +0200
+
+    Merge branch 'master' of https://github.com/dreibh/simulamet
+
+commit 507a31674581d1bc816d4784d5a3373ed2ad16f0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 28 21:10:14 2025 +0200
+
+    Fix for Fedora build.
+
+commit ac630f9a78c128150c1f4b4035c161f973d5220c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 28 16:21:31 2025 +0200
+
+    RPM spec dependency fix.
+
+commit 779b5c42dd455fdd9d9d3540ff17cdadbf2c0098
+Merge: 56e245d 6e356d2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 28 15:41:50 2025 +0200
+
+    Merge branch 'master' of github.com:dreibh/simulamet
+
+commit 56e245dfe14fcff1d101f8e8fd37af0c66879bf3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 28 15:41:30 2025 +0200
+
+    Version bump.
+
+commit 6e356d29e4ee9e840359dad7b660f1e6db8709f7
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Sun Sep 28 15:33:49 2025 +0200
+
+    RPM spec update: S390x fails due to missing dependency Gimp. Excluding S390x until Gimp becomes available.
+
+commit 1c7d2d4926711fdbcb7c772e512a6095c8577388
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Aug 12 14:24:32 2025 +0200
+
+    Updated CI scripts
+
+commit 1c15e6d03cffb5dfeb4e7a7ac0e118b321e17571
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Aug 12 10:45:47 2025 +0200
+
+    Added workflows.
+
 commit 37788c2102d6bd8cf5a626b0495b4efb461bfd8e
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Thu Jul 10 10:00:39 2025 +0200
