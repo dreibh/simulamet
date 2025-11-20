@@ -82,7 +82,6 @@ Requires: net-snmp-utils
 Requires: net-tools
 Requires: netperfmeter
 Requires: nmap
-Requires: (ntpsec or ntpdate)
 Requires: parallel
 Requires: pxz
 Requires: reprepro
@@ -98,7 +97,6 @@ Requires: vconfig
 Requires: virt-what
 Requires: whois
 Recommends: grub2-tools
-Recommends: reiserfs-utils
 Recommends: ipsec-tools
 Recommends: wireshark-cli
 
