@@ -191,8 +191,6 @@ Requires: shellcheck
 Requires: urw-base35-fonts
 Requires: xz-devel
 Requires: zlib-devel
-Recommends: qt6-linguist
-Recommends: qt6-qtbase-devel
 Recommends: valgrind
 Recommends: yamllint
 
