@@ -106,7 +106,15 @@ Depends: autoconf,
          git-lfs,
          graphicsmagick,
          gsfonts,
+         libboost-all-dev,
+         libbz2-dev,
+         libc-ares-dev,
+         libcurl4-openssl-dev,
+         libgeoip-dev,
          libimage-exiftool-perl,
+         liblzma-dev,
+         libsctp-dev,
+         libssl-dev,
          manpages-dev,
          pbuilder,
          pdf2svg,
@@ -120,9 +128,12 @@ Depends: autoconf,
          reprepro,
          shellcheck,
          simulamet-management (= ${binary:Version}),
+         zlib1g-dev,
          ${misc:Depends}
-Recommends: docker.io,
-            ubuntu-dev-tools
+Recommends: qt6-base-dev,
+            qt6-l10n-tools,
+            ubuntu-dev-tools,
+            yamllint
 Description: Development tools for the SimulaMet system environment
  This metapackage contains basic software for SimulaMet development.
  The software installed provides a common working environment.

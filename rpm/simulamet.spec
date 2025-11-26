@@ -119,7 +119,6 @@ Requires: wget
 Requires: wireshark-cli
 Requires: zip
 Recommends: grub2-tools
-Recommends: valgrind
 
 %description management
 This metapackage contains basic software for SimulaMet system management.
@@ -151,6 +150,9 @@ Requires: autoconf
 Requires: automake
 Requires: bc
 Requires: bison
+Requires: boost-devel
+Requires: bzip2-devel
+Requires: c-ares-devel
 Requires: clang
 Requires: cmake
 Requires: dejavu-fonts-all
@@ -159,16 +161,20 @@ Requires: flex
 Requires: g++
 Requires: gcc
 Requires: gdb
+Requires: GeoIP-devel
 Requires: ghostscript
 Requires: git-lfs
 Requires: google-noto-fonts-all
 Requires: GraphicsMagick
+Requires: libcurl-devel
 Requires: libtool
+Requires: lksctp-tools-devel
 Requires: mock
 Requires: open-sans-fonts
+Requires: openssl-devel
 Requires: pbuilder
-Requires: perl-Image-ExifTool
 Requires: pdf2svg
+Requires: perl-Image-ExifTool
 Requires: pkg-config
 Requires: python3
 Requires: python3-netifaces
@@ -179,9 +185,16 @@ Requires: qt6-qtbase-devel
 Requires: R-base
 Requires: reprepro
 Requires: rpm-build
+Requires: rsplib-libcpprspserver-devel
+Requires: rsplib-librsplib-devel
 Requires: shellcheck
 Requires: urw-base35-fonts
-Requires: yamllint
+Requires: xz-devel
+Requires: zlib-devel
+Recommends: qt6-linguist
+Recommends: qt6-qtbase-devel
+Recommends: valgrind
+Recommends: yamllint
 
 
 %description development
