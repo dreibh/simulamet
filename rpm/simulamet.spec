@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 1.2.4~rc1.4
+Version: 1.2.4~rc1.5
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
