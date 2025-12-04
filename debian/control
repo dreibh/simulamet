@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Thomas Dreibholz <thomas.dreibholz@gmail.com>
 Homepage: http://www.simulamet.no
 Build-Depends: cmake,
-               debhelper (>= 12),
+               debhelper-compat (= 13),
                fonts-dejavu,
                fonts-noto-cjk,
                fonts-noto-hinted,
