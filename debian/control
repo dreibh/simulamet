@@ -3,6 +3,8 @@ Section: net
 Priority: optional
 Maintainer: Thomas Dreibholz <thomas.dreibholz@gmail.com>
 Homepage: http://www.simulamet.no
+Vcs-Git: https://github.com/dreibh/simulamet.git
+Vcs-Browser: https://github.com/dreibh/simulamet
 Build-Depends: cmake,
                debhelper-compat (= 13),
                fonts-dejavu,
