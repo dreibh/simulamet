@@ -25,12 +25,11 @@ BuildRequires: perl-Image-ExifTool
 BuildRequires: urw-base35-fonts
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
 
+BuildArch: noarch
 
-# This package does not generate debug information (no executables):
-%global debug_package %{nil}
-
-# TEST ONLY:
-# define _unpackaged_files_terminate_build 0
+Requires: %{name}-management
+Requires: %{name}-development
+Requires: %{name}-desktop
 
 
 %description
@@ -55,6 +54,8 @@ mv %{buildroot}/usr/share/simulamet/Splash/Oslo-*.jpeg          %{buildroot}/boo
 mkdir -p %{buildroot}/etc/simulamet
 mv %{buildroot}/usr/share/simulamet/Splash/simulamet-version   %{buildroot}/etc/simulamet
 # ===========================================================================
+
+%files
 
 
 %package management
