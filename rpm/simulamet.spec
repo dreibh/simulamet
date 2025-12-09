@@ -28,9 +28,9 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-build
 
 BuildArch: noarch
 
-Requires: %{name}-management
-Requires: %{name}-development
-Requires: %{name}-desktop
+Requires: %{name}-management = %{version}-%{release}
+Requires: %{name}-development = %{version}-%{release}
+Requires: %{name}-desktop = %{version}-%{release}
 
 
 %description
