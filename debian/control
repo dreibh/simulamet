@@ -3,8 +3,10 @@ Section: net
 Priority: optional
 Maintainer: Thomas Dreibholz <thomas.dreibholz@gmail.com>
 Homepage: http://www.simulamet.no
+Vcs-Git: https://github.com/dreibh/simulamet.git
+Vcs-Browser: https://github.com/dreibh/simulamet
 Build-Depends: cmake,
-               debhelper (>= 12),
+               debhelper-compat (= 13),
                fonts-dejavu,
                fonts-noto-cjk,
                fonts-noto-hinted,
@@ -60,8 +62,6 @@ Depends: acl,
          subnetcalc,
          sudo,
          tcpdump,
-         td-system-configure-grub,
-         td-system-tools,
          traceroute,
          tree,
          tsctp,
@@ -76,7 +76,8 @@ Recommends: grub2-common,
             language-pack-de-base,
             language-pack-en-base,
             language-pack-nb-base,
-            valgrind
+            td-system-configure-grub,
+            td-system-tools
 Description: Management tools for the SimulaMet system environment
  This metapackage contains basic software for SimulaMet system management.
  The software installed provides a common working environment.
@@ -101,6 +102,7 @@ Depends: autoconf,
          fonts-dejavu,
          fonts-noto,
          fonts-open-sans,
+         fonts-urw-base35,
          g++,
          gcc,
          gdb,
@@ -128,11 +130,13 @@ Depends: autoconf,
          reprepro,
          shellcheck,
          simulamet-management (= ${binary:Version}),
+         tidy,
          zlib1g-dev,
          ${misc:Depends}
 Recommends: qt6-base-dev,
             qt6-l10n-tools,
             ubuntu-dev-tools,
+            valgrind,
             yamllint
 Description: Development tools for the SimulaMet system environment
  This metapackage contains basic software for SimulaMet development.

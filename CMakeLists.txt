@@ -1,5 +1,5 @@
 # SimulaMet System Management
-# Copyright (C) 2017-2024 by Thomas Dreibholz
+# Copyright (C) 2017-2026 by Thomas Dreibholz
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@ PROJECT(simulamet LANGUAGES C)
 
 SET(BUILD_MAJOR "1")
 SET(BUILD_MINOR "2")
-SET(BUILD_PATCH "4~rc1.2")
+SET(BUILD_PATCH "4~rc1.6")
 SET(BUILD_VERSION ${BUILD_MAJOR}.${BUILD_MINOR}.${BUILD_PATCH})
 
 

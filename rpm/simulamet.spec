@@ -1,5 +1,5 @@
 Name: simulamet
-Version: 1.2.4~rc1.2
+Version: 1.2.4~rc1.6
 Release: 1
 Summary: SimulaMet Desktop
 Group: Applications/Internet
@@ -189,6 +189,7 @@ Requires: rpm-build
 Requires: rsplib-libcpprspserver-devel
 Requires: rsplib-librsplib-devel
 Requires: shellcheck
+Requires: tidy
 Requires: urw-base35-fonts
 Requires: xz-devel
 Requires: zlib-devel
