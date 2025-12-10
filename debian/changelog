@@ -1,8 +1,8 @@
-simulamet (1.2.4~rc1.6-1ubuntu1) resolute; urgency=medium
+simulamet (1.2.4-1ubuntu1) resolute; urgency=medium
 
   * New upstream release.
 
- -- Thomas Dreibholz <dreibh@simula.no>  Fri, 28 Nov 2025 15:59:19 +0100
+ -- Thomas Dreibholz <dreibh@simula.no>  Wed, 10 Dec 2025 09:35:42 +0100
 
 simulamet (1.2.3-1ubuntu1) questing; urgency=medium
 

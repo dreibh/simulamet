@@ -1,3 +1,223 @@
+commit 15a4e25a71699e7c2b5be474054b2e81bb0f6026
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 15:46:59 2025 +0100
+
+    Updated CI scripts
+
+commit a469c468a9a51ec417ed8903b973e698e678a72d
+Merge: 6e6c63c 0417590
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 15:46:52 2025 +0100
+
+    Merge branch 'master' of github.com:dreibh/simulamet
+
+commit 6e6c63ce84e74533861c548eae2471dca45d7903
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 15:46:40 2025 +0100
+
+    Dependency fix.
+
+commit 041759067833f728b61b420e696c6c7cd9ef55bc
+Merge: bfa8247 c1b1427
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 11:31:49 2025 +0100
+
+    Merge branch 'master' of https://github.com/dreibh/simulamet
+
+commit bfa8247f26f6946fe61b5fd5cea251cc33e52090
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 11:31:27 2025 +0100
+
+    RPM spec update.
+
+commit c1b1427682ae5269219eef6fa83b59e7a3c72605
+Merge: f49aabb 637ddfd
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 11:27:05 2025 +0100
+
+    Merge branch 'master' of github.com:dreibh/simulamet
+
+commit 637ddfdc8a2cda3cd3ed37728158e4bbc15b96b1
+Merge: 391045f 1fc6327
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 11:25:59 2025 +0100
+
+    Merge branch 'master' of https://github.com/dreibh/simulamet
+
+commit 391045fb437f5216890b3da186b9add05cd3a41d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 11:25:27 2025 +0100
+
+    RPM spec fix.
+
+commit f49aabb365051b98b33b87faac42e0b79b7418d4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 11:11:23 2025 +0100
+
+    Updated CI workflows.
+
+commit 1fc6327896d7b47c50c1eaf097b12900ea39d294
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Tue Dec 9 10:06:59 2025 +0100
+
+    Updated CI scripts
+
+commit 5aa0823ad03cd2d43bdf0c50e2a054337a278753
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Dec 5 15:47:59 2025 +0100
+
+    Updated CI scripts
+
+commit edda44def3833aaf5cee4fe944840dab87dd9df4
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Dec 5 15:46:19 2025 +0100
+
+    Packaging update.
+
+commit ee623fb86e7ecb78df74ffc026bab38c00b2b3c3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Dec 5 13:37:21 2025 +0100
+
+    Updated CI configuration
+
+commit f35606fcfebc6745553baf102bb1ecc1139371fd
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Dec 5 13:37:18 2025 +0100
+
+    Updated CI scripts
+
+commit f1151840dddaeac15a334b538aad50e9a6b5152c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Dec 5 11:37:32 2025 +0100
+
+    Updated build helper script.
+
+commit cb284e8eff83b785eafbc559f0f069d88b093e0d
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Dec 5 11:34:32 2025 +0100
+
+    Updated CI configuration
+
+commit ee0c529427d33fe5631d0503ea364ffeaa10838e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Dec 5 11:34:19 2025 +0100
+
+    Updated CI scripts
+
+commit c86315cd4e006e8d4e6d2c5cf8b56939049e98b5
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 4 17:58:21 2025 +0100
+
+    Updated CI scripts
+
+commit 9323bbbf9e2a125df6af1e65453519c0071c6319
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 4 17:23:34 2025 +0100
+
+    Updated CI configuration
+
+commit c2b7506062edb08bc107f0919e2914c17bd8dc86
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 4 15:38:26 2025 +0100
+
+    Header updates.
+
+commit b8455f5211659f150ba97db265d75c7ef919f3de
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 4 15:34:58 2025 +0100
+
+    Packaging update.
+
+commit 815b23ed25b701da54075193953a435d74917491
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 4 15:31:12 2025 +0100
+
+    Updated CI configuration
+
+commit 777ebc7b3296eb5441660fa6b94312825a3268a0
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 4 15:31:10 2025 +0100
+
+    Updated CI scripts
+
+commit ec83a48859c1b84fb75b4ff42a85564b289b2d0c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Dec 4 15:02:25 2025 +0100
+
+    Updated workflows.
+
+commit 05bc6dc839c9d4c718d77ae1da96a8ccdf85ddc7
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Dec 3 15:46:40 2025 +0100
+
+    Updated CI scripts
+
+commit e1a9d00b3255956b104dc37f37e303dadcd7f27e
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Nov 28 15:58:06 2025 +0100
+
+    Updated CI scripts
+
+commit 035eafb3a7292c9f02204116e0bc32e40568339c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Nov 28 11:27:17 2025 +0100
+
+    Updated CI configuration
+
+commit 96949f3c9661f7c795db81e0cb6f7b13206912b6
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Nov 28 11:27:04 2025 +0100
+
+    Updated CI scripts
+
+commit be5eb1e4685678a086606e7fbee5bb9526a39249
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Fri Nov 28 10:44:00 2025 +0100
+
+    Dependency fix.
+
+commit cd25cc18df665b0bf0410e2fd54060ed62708de2
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Nov 27 12:05:55 2025 +0100
+
+    Dependency improvements.
+
+commit 5b63524b823635c0eafcedf411c99c5278b5422a
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 26 14:51:23 2025 +0100
+
+    Dependency improvements.
+
+commit d99bbbbdd1896f08e0cd62a93d34fb4dbdc4bc96
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 26 10:35:39 2025 +0100
+
+    Another dependency update.
+
+commit 43adde2c43a4052088d54dc75779630b75588482
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 26 10:09:00 2025 +0100
+
+    Further dependency improvements.
+
+commit 56f169455b412ec8a373876e22b132de1bd09ac3
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Wed Nov 26 09:47:31 2025 +0100
+
+    Dependency improvements.
+
+commit 6396f3c8004af090c077d997b0c6542232a0c89c
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Thu Nov 20 13:25:25 2025 +0100
+
+    Dependency fixes.
+
+commit a1739f47c7596ac27aac14474e073c3ea3127761
+Author: Thomas Dreibholz <dreibh@simula.no>
+Date:   Mon Sep 29 15:07:12 2025 +0200
+
+    New release simulamet-1.2.3.
+
 commit 9063fa4c46eb80e2686e95731ce6899648b71975
 Author: Thomas Dreibholz <dreibh@simula.no>
 Date:   Sun Sep 28 21:58:37 2025 +0200
